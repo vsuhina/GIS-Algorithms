@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>42c79070-9b84-4cb4-b910-6fb5717d5525</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>intersection.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="centroid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="intersection.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linesegment.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="point.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="point2line.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sideplr.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spherical_distance.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

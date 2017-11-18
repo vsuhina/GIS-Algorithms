@@ -63,11 +63,11 @@ class Point():
             return False
         return NotImplemented
 
-    def __str__(self):
+    def __str__(self):        
         if type(self.x) is int and type(self.y) is int:
             return "({0},{1})".format(self.x, self.y)
         else:
-            return "({0:.lf},{1:.lf)".format(self.x, self.y)
+            return "({0:.1f},{1:.1f})".format(self.x, self.y)
 
     def distance(self, other):
         return sqrt((self.x - other.x)**2 + (self.y - other.y)**2)
